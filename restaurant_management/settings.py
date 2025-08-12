@@ -127,3 +127,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Restaurant Name Here
+RESTAURANT_NAME = "Tasty Bites" 
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+# 404 page
+DEBUG = False  # Only set this in production
+ALLOWED_HOSTS = ['*']  # For testing, specify your domain in production
