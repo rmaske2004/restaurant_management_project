@@ -137,4 +137,8 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 # 404 page
 DEBUG = False  # Only set this in production
-ALLOWED_HOSTS = ['*']  # For testing, specify your domain in production
+ALLOWED_HOSTS = ['*']  # For testing, specify
+ your domain in production
+
+
+ RESTAURANT_PHONE = "+91 98765 43210"
